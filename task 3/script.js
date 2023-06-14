@@ -20,7 +20,7 @@ const calculateTemp = () => {
         document.getElementById("result__output").innerHTML = celToFah(inputTemp) + "&#176; Fahrenheit";
     }
     else {
-        document.getElementById("resul__output").innerHTML = fahToCel(inputTemp) + "&#176; Celsius";
+        document.getElementById("result__output").innerHTML = fahToCel(inputTemp) + "&#176; Celsius";
     }
 }
 
